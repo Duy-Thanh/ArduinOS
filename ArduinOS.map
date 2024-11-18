@@ -1,0 +1,726 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_udivmodsi4.o)
+                              src/hal/uart.o (__udivmodsi4)
+C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_exit.o)
+                              C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/../../../../avr/lib/avr6/crtatmega2560.o (exit)
+C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_copy_data.o)
+                              main.o (__do_copy_data)
+C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_clear_bss.o)
+                              main.o (__do_clear_bss)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .bss           0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .text          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .text._Z11__vector_16v
+                0x00000000       0x50 main.o
+ .text          0x00000000        0x0 src/core/string.o
+ .data          0x00000000        0x0 src/core/string.o
+ .bss           0x00000000        0x0 src/core/string.o
+ .text._Z10str_lengthPKc
+                0x00000000       0x1e src/core/string.o
+ .text._Z8str_copyPcPKc
+                0x00000000       0x12 src/core/string.o
+ .text          0x00000000        0x0 src/hal/uart_cmd.o
+ .data          0x00000000        0x0 src/hal/uart_cmd.o
+ .bss           0x00000000        0x0 src/hal/uart_cmd.o
+ .text          0x00000000        0x0 src/hal/gpio.o
+ .data          0x00000000        0x0 src/hal/gpio.o
+ .bss           0x00000000        0x0 src/hal/gpio.o
+ .text          0x00000000        0x0 src/hal/timer.o
+ .data          0x00000000        0x0 src/hal/timer.o
+ .bss           0x00000000        0x0 src/hal/timer.o
+ .text._Z18timer0_set_compareh
+                0x00000000        0x4 src/hal/timer.o
+ .text._Z24timer0_disable_interruptv
+                0x00000000        0xc src/hal/timer.o
+ .text          0x00000000        0x0 src/hal/uart.o
+ .data          0x00000000        0x0 src/hal/uart.o
+ .bss           0x00000000        0x0 src/hal/uart.o
+ .rodata._Z14uart_print_hexm.str1.1
+                0x00000000        0x3 src/hal/uart.o
+ .text._Z14uart_print_hexm
+                0x00000000       0x7e src/hal/uart.o
+ .text          0x00000000        0x0 src/hal/registers.o
+ .data          0x00000000        0x0 src/hal/registers.o
+ .bss           0x00000000        0x0 src/hal/registers.o
+ .text          0x00000000        0x0 src/kernel/scheduler.o
+ .data          0x00000000        0x0 src/kernel/scheduler.o
+ .bss           0x00000000        0x0 src/kernel/scheduler.o
+ .text._Z21scheduler_remove_taskh
+                0x00000000       0x38 src/kernel/scheduler.o
+ .text._Z21scheduler_enable_taskh
+                0x00000000       0x1e src/kernel/scheduler.o
+ .text._Z22scheduler_disable_taskh
+                0x00000000       0x1a src/kernel/scheduler.o
+ .text._Z14scheduler_tickv
+                0x00000000       0xbc src/kernel/scheduler.o
+ .bss._ZZ14scheduler_tickvE10tick_count
+                0x00000000        0x4 src/kernel/scheduler.o
+ .text          0x00000000        0x0 src/kernel/interrupt.o
+ .data          0x00000000        0x0 src/kernel/interrupt.o
+ .bss           0x00000000        0x0 src/kernel/interrupt.o
+ .text._Z26interrupt_register_handlerhPFvvE
+                0x00000000       0x10 src/kernel/interrupt.o
+ .bss._ZL13handler_count
+                0x00000000        0x1 src/kernel/interrupt.o
+ .comment       0x00000000       0x13 src/kernel/interrupt.o
+ .text          0x00000000        0x0 src/drivers/led.o
+ .data          0x00000000        0x0 src/drivers/led.o
+ .bss           0x00000000        0x0 src/drivers/led.o
+ .text._Z10led_toggleh
+                0x00000000       0x1c src/drivers/led.o
+ .text          0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_clear_bss.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00100000         xr
+data             0x00800200         0x0000fe00         rw!x
+eeprom           0x00810000         0x00010000         rw!x
+fuse             0x00820000         0x00000003         rw!x
+lock             0x00830000         0x00000400         rw!x
+signature        0x00840000         0x00000400         rw!x
+user_signatures  0x00850000         0x00000400         rw!x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800200
+LOAD C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/../../../../avr/lib/avr6/crtatmega2560.o
+LOAD main.o
+LOAD src/core/string.o
+LOAD src/hal/uart_cmd.o
+LOAD src/hal/gpio.o
+LOAD src/hal/timer.o
+LOAD src/hal/uart.o
+LOAD src/hal/registers.o
+LOAD src/kernel/scheduler.o
+LOAD src/kernel/interrupt.o
+LOAD src/drivers/led.o
+LOAD C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a
+LOAD C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/../../../../avr/lib/avr6\libm.a
+START GROUP
+LOAD C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a
+LOAD C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/../../../../avr/lib/avr6\libm.a
+LOAD C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/../../../../avr/lib/avr6\libc.a
+LOAD C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/../../../../avr/lib/avr6\libatmega2560.a
+END GROUP
+                0x00000000                        __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                0x00100000                        __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x100000
+                0x00800200                        __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800200
+                0x0000fe00                        __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xfe00
+                0x00010000                        __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000003]                      __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                        __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                        __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                        __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0x788
+ *(.vectors)
+ .vectors       0x00000000       0xe4 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/../../../../avr/lib/avr6/crtatmega2560.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x000000e4                        . = ALIGN (0x2)
+                0x000000e4                        __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000e4       0x18 linker stubs
+ *(.trampolines*)
+                0x000000fc                        __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem.*)
+                0x000000fc                        . = ALIGN (0x2)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000fc                        __ctors_start = .
+ *(.ctors)
+                0x000000fc                        __ctors_end = .
+                0x000000fc                        __dtors_start = .
+ *(.dtors)
+                0x000000fc                        __dtors_end = .
+ SORT_BY_NAME(*)(.ctors)
+ SORT_BY_NAME(*)(.dtors)
+ *(.init0)
+ .init0         0x000000fc        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/../../../../avr/lib/avr6/crtatmega2560.o
+                0x000000fc                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000fc       0x10 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/../../../../avr/lib/avr6/crtatmega2560.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000010c       0x1a C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_copy_data.o)
+                0x0000010c                __do_copy_data
+ .init4         0x00000126       0x10 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_clear_bss.o)
+                0x00000126                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000136        0x8 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/../../../../avr/lib/avr6/crtatmega2560.o
+ *(.init9)
+ *(.text)
+ .text          0x0000013e        0x4 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/../../../../avr/lib/avr6/crtatmega2560.o
+                0x0000013e                __vector_38
+                0x0000013e                __vector_22
+                0x0000013e                __vector_28
+                0x0000013e                __vector_1
+                0x0000013e                __vector_32
+                0x0000013e                __vector_34
+                0x0000013e                __vector_24
+                0x0000013e                __vector_12
+                0x0000013e                __vector_55
+                0x0000013e                __vector_46
+                0x0000013e                __bad_interrupt
+                0x0000013e                __vector_6
+                0x0000013e                __vector_31
+                0x0000013e                __vector_35
+                0x0000013e                __vector_39
+                0x0000013e                __vector_3
+                0x0000013e                __vector_23
+                0x0000013e                __vector_30
+                0x0000013e                __vector_45
+                0x0000013e                __vector_25
+                0x0000013e                __vector_11
+                0x0000013e                __vector_54
+                0x0000013e                __vector_13
+                0x0000013e                __vector_17
+                0x0000013e                __vector_19
+                0x0000013e                __vector_56
+                0x0000013e                __vector_7
+                0x0000013e                __vector_49
+                0x0000013e                __vector_41
+                0x0000013e                __vector_43
+                0x0000013e                __vector_27
+                0x0000013e                __vector_5
+                0x0000013e                __vector_33
+                0x0000013e                __vector_47
+                0x0000013e                __vector_52
+                0x0000013e                __vector_37
+                0x0000013e                __vector_4
+                0x0000013e                __vector_44
+                0x0000013e                __vector_51
+                0x0000013e                __vector_9
+                0x0000013e                __vector_2
+                0x0000013e                __vector_21
+                0x0000013e                __vector_15
+                0x0000013e                __vector_36
+                0x0000013e                __vector_29
+                0x0000013e                __vector_40
+                0x0000013e                __vector_8
+                0x0000013e                __vector_26
+                0x0000013e                __vector_48
+                0x0000013e                __vector_14
+                0x0000013e                __vector_53
+                0x0000013e                __vector_10
+                0x0000013e                __vector_50
+                0x0000013e                __vector_16
+                0x0000013e                __vector_18
+                0x0000013e                __vector_20
+                0x0000013e                __vector_42
+                0x00000142                        . = ALIGN (0x2)
+ *(.text.*)
+ .text._ZL8led_taskv
+                0x00000142       0x2c main.o
+ .text.setup    0x0000016e       0xd6 main.o
+                0x0000016e                setup
+ .text.loop     0x00000244       0x1e main.o
+                0x00000244                loop
+ .text.startup.main
+                0x00000262        0xc main.o
+                0x00000262                main
+ .text._Z11str_comparePKcS0_
+                0x0000026e       0x14 src/core/string.o
+                0x0000026e                _Z11str_comparePKcS0_
+ .text._ZL13cmd_led_blinkv
+                0x00000282       0x40 src/hal/uart_cmd.o
+ .text._ZL8cmd_helpv
+                0x000002c2       0x40 src/hal/uart_cmd.o
+ .text._ZL10cmd_statusv
+                0x00000302       0x4a src/hal/uart_cmd.o
+ .text._ZL11cmd_led_offv
+                0x0000034c        0xe src/hal/uart_cmd.o
+ .text._ZL10cmd_led_onv
+                0x0000035a        0xe src/hal/uart_cmd.o
+ .text._Z8cmd_initv
+                0x00000368       0x1c src/hal/uart_cmd.o
+                0x00000368                _Z8cmd_initv
+ .text._Z11cmd_processv
+                0x00000384       0xee src/hal/uart_cmd.o
+                0x00000384                _Z11cmd_processv
+ .text._Z18gpio_set_directionh15pin_direction_t
+                0x00000472       0x46 src/hal/gpio.o
+                0x00000472                _Z18gpio_set_directionh15pin_direction_t
+ .text._Z10gpio_writeh11pin_state_t
+                0x000004b8       0x46 src/hal/gpio.o
+                0x000004b8                _Z10gpio_writeh11pin_state_t
+ .text._Z9gpio_readh
+                0x000004fe       0x36 src/hal/gpio.o
+                0x000004fe                _Z9gpio_readh
+ .text._Z11timer0_init12timer_mode_t17timer_prescaler_t
+                0x00000534       0x32 src/hal/timer.o
+                0x00000534                _Z11timer0_init12timer_mode_t17timer_prescaler_t
+ .text._Z23timer0_enable_interruptv
+                0x00000566        0xc src/hal/timer.o
+                0x00000566                _Z23timer0_enable_interruptv
+ .text._Z9uart_initP13uart_config_t
+                0x00000572       0x68 src/hal/uart.o
+                0x00000572                _Z9uart_initP13uart_config_t
+ .text._Z15uart_data_readyv
+                0x000005da       0x14 src/hal/uart.o
+                0x000005da                _Z15uart_data_readyv
+ .text._Z14uart_send_byteh
+                0x000005ee        0xe src/hal/uart.o
+                0x000005ee                _Z14uart_send_byteh
+ .text._Z17uart_receive_bytev
+                0x000005fc        0xe src/hal/uart.o
+                0x000005fc                _Z17uart_receive_bytev
+ .text._Z10uart_printPKc
+                0x0000060a       0x18 src/hal/uart.o
+                0x0000060a                _Z10uart_printPKc
+ .text._Z12uart_printlnPKc
+                0x00000622        0xc src/hal/uart.o
+                0x00000622                _Z12uart_printlnPKc
+ .text._Z13init_hardwarev
+                0x0000062e       0x68 src/hal/registers.o
+                0x0000062e                _Z13init_hardwarev
+ .text._Z14scheduler_initv
+                0x00000696       0x30 src/kernel/scheduler.o
+                0x00000696                _Z14scheduler_initv
+ .text._Z18scheduler_add_taskPFvvEmPKc
+                0x000006c6       0x42 src/kernel/scheduler.o
+                0x000006c6                _Z18scheduler_add_taskPFvvEmPKc
+ .text._Z15scheduler_startv
+                0x00000708       0x10 src/kernel/scheduler.o
+                0x00000708                _Z15scheduler_startv
+ .text._Z8led_inith
+                0x00000718       0x18 src/drivers/led.o
+                0x00000718                _Z8led_inith
+ .text._Z6led_onh
+                0x00000730        0x8 src/drivers/led.o
+                0x00000730                _Z6led_onh
+ .text._Z7led_offh
+                0x00000738        0x8 src/drivers/led.o
+                0x00000738                _Z7led_offh
+ .text.libgcc.div
+                0x00000740       0x44 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_udivmodsi4.o)
+                0x00000740                __udivmodsi4
+                0x00000784                        . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000784        0x0 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_exit.o)
+                0x00000784                _exit
+                0x00000784                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000784        0x4 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/avr6\libgcc.a(_exit.o)
+ *(.fini0)
+ *(.hightext)
+ *(.hightext*)
+ *(.progmemx.*)
+                0x00000788                        . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+                0x00000788                        _etext = .
+
+.data           0x00800200      0x190 load address 0x00000788
+                0x00800200                        PROVIDE (__data_start = .)
+ *(.data)
+ *(.data*)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ .rodata        0x00800200        0x8 main.o
+ *(.rodata*)
+ .rodata.setup.str1.1
+                0x00800208      0x15e main.o
+                                 0x1c (size before relaxing)
+ .rodata._ZL13cmd_led_blinkv.str1.1
+                0x00800366       0x1f src/hal/uart_cmd.o
+ .rodata._ZL8cmd_helpv.str1.1
+                0x00800366       0x1d src/hal/uart_cmd.o
+ .rodata._ZL10cmd_statusv.str1.1
+                0x00800366       0x30 src/hal/uart_cmd.o
+ .rodata._ZL11cmd_led_offv.str1.1
+                0x00800366        0xf src/hal/uart_cmd.o
+ .rodata._ZL10cmd_led_onv.str1.1
+                0x00800366        0xe src/hal/uart_cmd.o
+ .rodata._Z8cmd_initv.str1.1
+                0x00800366       0x43 src/hal/uart_cmd.o
+ .rodata._Z11cmd_processv.str1.1
+                0x00800366       0x17 src/hal/uart_cmd.o
+ .rodata.str1.1
+                0x00800366       0x70 src/hal/uart_cmd.o
+ .rodata._ZL8commands
+                0x00800366       0x1e src/hal/uart_cmd.o
+ .rodata.CSWTCH.3
+                0x00800384        0x6 src/hal/gpio.o
+ .rodata.CSWTCH.1
+                0x0080038a        0x6 src/hal/gpio.o
+ .rodata._Z12uart_printlnPKc.str1.1
+                0x00800390        0x3 src/hal/uart.o
+ *(.gnu.linkonce.r*)
+                0x008003d6                        . = ALIGN (0x2)
+                0x00800390                        _edata = .
+                0x00800390                        PROVIDE (__data_end = .)
+
+.bss            0x00800390      0x10a
+                0x00800390                        PROVIDE (__bss_start = .)
+ *(.bss)
+ *(.bss*)
+ .bss._ZZ4loopE7in_loop
+                0x00800390        0x2 main.o
+ .bss._ZZL7os_initvE11initialized
+                0x00800392        0x2 main.o
+ .bss._ZZL8led_taskvE9led_state
+                0x00800394        0x2 main.o
+ .bss._ZL17led_blink_enabled
+                0x00800396        0x2 src/hal/uart_cmd.o
+ .bss._ZL9cmd_index
+                0x00800398        0x1 src/hal/uart_cmd.o
+ .bss._ZL10cmd_buffer
+                0x00800399       0x20 src/hal/uart_cmd.o
+ .bss._ZL10task_count
+                0x008003b9        0x1 src/kernel/scheduler.o
+ .bss._ZL5tasks
+                0x008003ba       0xe0 src/kernel/scheduler.o
+ *(COMMON)
+                0x0080049a                        PROVIDE (__bss_end = .)
+                0x00000788                        __data_load_start = LOADADDR (.data)
+                0x00000918                        __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080049a        0x2
+                [!provide]                        PROVIDE (__noinit_start = .)
+ *(.noinit .noinit.* .gnu.linkonce.n.*)
+ .noinit        0x0080049a        0x2 main.o
+                [!provide]                        PROVIDE (__noinit_end = .)
+                0x0080049c                        _end = .
+                [!provide]                        PROVIDE (__heap_start = .)
+                0x00000000                        __flmap_init_label = DEFINED (__flmap_noinit_start)?__flmap_noinit_start:0x0
+                0x00000000                        __flmap = DEFINED (__flmap)?__flmap:0x0
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                        __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x12
+ *(.comment)
+ .comment       0x00000000       0x12 main.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012       0x13 src/core/string.o
+ .comment       0x00000012       0x13 src/hal/uart_cmd.o
+ .comment       0x00000012       0x13 src/hal/gpio.o
+ .comment       0x00000012       0x13 src/hal/timer.o
+ .comment       0x00000012       0x13 src/hal/uart.o
+ .comment       0x00000012       0x13 src/hal/registers.o
+ .comment       0x00000012       0x13 src/kernel/scheduler.o
+ .comment       0x00000012       0x13 src/drivers/led.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/../../../../avr/lib/avr6/crtatmega2560.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0xbbc
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xbbc C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/../../../../avr/lib/avr6/crtatmega2560.o
+
+.debug_abbrev   0x00000000      0xb1a
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0xb1a C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/../../../../avr/lib/avr6/crtatmega2560.o
+
+.debug_line     0x00000000       0x1d
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1d C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/../../../../avr/lib/avr6/crtatmega2560.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x00000000      0x3e6
+ *(.debug_str)
+ .debug_str     0x00000000      0x3e6 C:/msys64/mingw64/bin/../lib/gcc/avr/14.2.0/../../../../avr/lib/avr6/crtatmega2560.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+OUTPUT(ArduinOS.elf elf32-avr)
+LOAD linker stubs
